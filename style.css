@@ -1,0 +1,91 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Volkhov:wght@100;200;300;400;500;600;700&display=swap);
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    
+    font-family: 'Poppins', sans-serif;
+  }
+.main_page{
+    width: 1200px;
+    height: 1000px;
+    margin: 0 auto;
+
+}
+.section-destination{
+    padding-top: 73.5px;
+width: 100%;
+    height: 617px;
+
+}
+.section-name{
+
+    font-family: Poppins;
+font-size: 18px;
+font-weight: 600;
+line-height: 27px;
+text-align: center;
+
+}
+.section-title{
+
+    font-family: 'Volkhov', serif;
+font-size: 50px;
+font-weight: 700;
+line-height: 64.5px;
+text-align: center;
+
+}
+.destinations{
+    display: flex;
+    justify-content: space-between;
+    width: 1050px;
+    height: 457px; 
+    margin: 60px auto 0;
+}
+.destination{
+    width: 315px;
+    height: 100%;
+    border-radius: 40px;
+    box-shadow: 
+    0 1.85px 3.15px 0 rgba(0, 0, 0, 0.28);
+}
+.destination-img-wrapper{
+    height: 327px;
+    width: 315px;
+    overflow:hidden;
+    border-radius: 40px 40px 0 0;
+}
+.dectination-img{
+    margin: 0 0 0 -79px;
+
+}
+.destination-info, .time{
+    display: flex;
+    justify-content: space-between;
+width: 270px;
+margin: 20px auto;
+
+}
+.city-or-country, .price .time-text{
+    font-size: 18px;
+    font-weight: 400;
+
+    
+}
+.time{
+    width: 129px;
+    margin-left: 20px;
+}
+.arrow{
+width: 20px;
+height: 20px;
+}
+.time-text{
+    font-size: 16px;
+}
